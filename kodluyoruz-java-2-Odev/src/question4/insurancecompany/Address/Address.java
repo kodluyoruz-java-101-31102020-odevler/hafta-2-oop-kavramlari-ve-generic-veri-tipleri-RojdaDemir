@@ -1,4 +1,4 @@
-package question4.insurancecompany;
+package question4.insurancecompany.Address;
 
 public interface Address {
  

@@ -1,4 +1,6 @@
-package question4.insurancecompany;
+package question4.insurancecompany.User;
+
+import question4.insurancecompany.account.Account;
 
 public class Individual extends Account{
 

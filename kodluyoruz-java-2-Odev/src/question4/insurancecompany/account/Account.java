@@ -1,6 +1,11 @@
-package question4.insurancecompany;
+package question4.insurancecompany.account;
 
 import java.util.List;
+
+import question4.insurancecompany.AuthenticationStatus;
+import question4.insurancecompany.InvalidAuthenticationException;
+import question4.insurancecompany.Insurance.Insurance;
+import question4.insurancecompany.User.User;
 
 public abstract class Account implements Comparable<Account> {
 

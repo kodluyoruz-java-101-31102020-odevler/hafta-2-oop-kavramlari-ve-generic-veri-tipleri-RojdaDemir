@@ -1,14 +1,14 @@
-package question4.insurancecompany;
+package question4.insurancecompany.Address;
 
-public class BusinessAddress implements Address {
+public class HomeAddress implements Address{
 
-	 private final String addressName ="İş Adresi";
+	 private final String addressName ="Ev adresi";
 	 private String street;
 	 private String district;
 	 private String city;
 	 private int zipCode;
 	
-	 public BusinessAddress() 
+	 public HomeAddress() 
 	   {
 		 
 		 this.street = "";
@@ -18,7 +18,7 @@ public class BusinessAddress implements Address {
 				
 	   }
 	
-     public BusinessAddress(String street, String district, String city, int zipCode) 
+     public HomeAddress(String street, String district, String city, int zipCode) 
        {
     	 this.street = street;
     	 this.district = district;
@@ -82,6 +82,7 @@ public class BusinessAddress implements Address {
 	public void addressPrint() {
 		
 		toString();
- 		
- }
+		
+	}
+
 }

@@ -1,7 +1,9 @@
-package question4.insurancecompany;
+package question4.insurancecompany.Address;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import question4.insurancecompany.User.User;
 
 public class AddressManager {
 

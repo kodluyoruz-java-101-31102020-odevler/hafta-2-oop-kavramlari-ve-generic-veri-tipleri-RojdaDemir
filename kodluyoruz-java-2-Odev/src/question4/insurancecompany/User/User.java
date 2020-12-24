@@ -1,7 +1,9 @@
-package question4.insurancecompany;
+package question4.insurancecompany.User;
 
 import java.util.Date;
 import java.util.List;
+
+import question4.insurancecompany.Address.Address;
 
 public class User {
 

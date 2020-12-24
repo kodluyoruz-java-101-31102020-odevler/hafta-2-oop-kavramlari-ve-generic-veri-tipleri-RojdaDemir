@@ -1,4 +1,4 @@
-package question4.insurancecompany;
+package question4.insurancecompany.Insurance;
 
 import java.util.Date;
 

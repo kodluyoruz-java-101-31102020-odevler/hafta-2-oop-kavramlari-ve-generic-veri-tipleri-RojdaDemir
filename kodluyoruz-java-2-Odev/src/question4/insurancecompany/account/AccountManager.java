@@ -1,7 +1,9 @@
-package question4.insurancecompany;
+package question4.insurancecompany.account;
 
 import java.util.Set;
 import java.util.TreeSet;
+
+import question4.insurancecompany.InvalidAuthenticationException;
 
 public class AccountManager {
 
